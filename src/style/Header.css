@@ -1,0 +1,53 @@
+div .header-web{
+    background: url(/public/chaussure-sport-jaune-au-design-elegant-generee-par-ia.jpg) center/cover;
+    max-width: 100%;
+    height: 100vh;
+    background-color: rgb(63, 62, 62);
+}
+div.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+div.slogan h1{
+   font-size: 56px;
+   margin: 0;
+   padding: 10px 0px;
+   color: black;
+   
+}
+div.slogan p{
+   color: white;
+   font-size: 24px;
+   letter-spacing: 1px;
+   padding-bottom: 20px ;
+   margin: 0;
+   padding: 0px 0px 25px 0px ;
+
+}
+div.slogan button{
+   font-size: 24px;
+   background-color: white;
+   color: black;
+   padding: 8px 20px;
+   border-radius: 25px;
+   width: 200px;
+   border: none;
+   letter-spacing: 2px;
+}
+div.slogan button:hover{
+   
+   background-color:#e5844c ;
+   transition: .5s ease;
+   cursor: pointer;
+}
+div.slogan button a:hover{ 
+   color: white;
+}

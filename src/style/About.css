@@ -1,0 +1,19 @@
+div.content-image{
+    position: relative;
+    max-width: 450px;
+    height: 300px;
+    width: 100%;
+    background: rgb(164,69,58);
+    background: linear-gradient(90deg, rgba(164,69,58,1) 0%, rgba(246,150,20,1) 51%, rgba(143,55,41,1) 100%);
+}
+div.content-image img{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    
+
+    
+}
