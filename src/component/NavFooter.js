@@ -5,10 +5,10 @@ const NavFooter = () => {
     return (
         <div>
             <div className='footer-navbar'>
-            <ul>
+            <ul >
                 <li><a href='#'>Home</a></li>
-                <li><a href='#services'>Services</a></li>
-                <li><a href='#produits'>Produits</a></li>
+                <li><a href='#services'>Our Service</a></li>
+                <li><a href='#produits'>Our Product</a></li>
                 <li><a href='#contact'>Contact</a></li>
             </ul>
             </div>

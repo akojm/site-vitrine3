@@ -10,8 +10,8 @@ return (
         <NavBars/>
         <div className='slogan'>
         <h1>Shoes Mag</h1>
-        <p>Trouvez les Shoes à vos pied !</p>
-        <Button className='btn'><a href='#about'>Visitez</a> </Button>
+        <p>Find the shoes for your feet !</p>
+        <Button className='btn'><a href='#about'>Explore</a> </Button>
         </div>
         
         </div>

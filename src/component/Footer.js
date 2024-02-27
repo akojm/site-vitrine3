@@ -13,16 +13,16 @@ const Footer = () => {
             <section id='footer' >
                 <Container>
                     <Row className='pt-5' >
-                    <Col className='col-lg-4  '    >
-                        <div className='content-image-footer mt-1'>
-                            <p className='text-center' >Shoes Mag</p>
-                          </div>
+                    <Col className='col-lg-4 col-12  '    >
+                       <div className='content-image-footer mt-1'>
+                        <p className='text-center' >Shoes Mag</p>
+                        </div>
                      </Col>
-                    <Col className='col-lg-4 '    >
+                    <Col className='col-lg-4 col-12 '    >
                             <NavFooter/>
                     </Col>
-                    <Col className='col-lg-4  d-flex flex-column justify-content-center align-items-center ' >
-                            <h5 className='text-white text-center'>Suivez-nous ici<FaArrowTurnDown /></h5>
+                    <Col className='col-lg-4 col-12  d-flex flex-column justify-content-center align-items-center mt-3 ' >
+                            <h5 className='text-white text-center'>follow us<FaArrowTurnDown /></h5>
                           <div className='social d-flex justify-content-between '>
                             <a href='https://www.facebook.com/' target='_blank' >
                             <FontAwesomeIcon icon={faFacebookF} />
