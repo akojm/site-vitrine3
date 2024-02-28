@@ -1,19 +1,28 @@
-.arrow{
+
+ #btnArrow{
     position: fixed;
     background-color: rgb(159, 8, 8);
-    z-index: 300;
-    bottom: 50px;
-    right: 20px;
-    cursor: pointer;
-    
-   
+    cursor: pointer;   
 }
-.arrow:hover{
+
+#btnArrow:hover{
     background-color:#e5844c;
-  transition: .5s ease;   
+    transition: .5s ease;   
 }
-.arrow svg{
+
+#btnArrow svg{
     font-size: 40px;
     margin: 0;
     color: white;
 }
+.active{
+    position: fixed;
+    background-color: rgb(159, 8, 8);
+    z-index: 300;
+    padding: 2px;
+    color: white;
+    bottom: 50px;
+    right: 20px;
+    cursor: pointer;
+    display: block;
+} 
